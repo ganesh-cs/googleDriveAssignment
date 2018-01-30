@@ -1,0 +1,364 @@
+ul{
+    list-style: none;
+    margin:0px;
+}
+.container{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.topBar{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 133px;
+    background-color: white;
+}
+.add,.edit,.remove{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.textBox{
+    height: 25px;
+}
+
+.save{
+    height: 27px;
+}
+
+.cancel{
+    height: 27px;
+}
+
+button{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+img{
+    cursor: pointer;
+
+}
+
+li{
+
+    cursor: pointer;
+    padding: 5px;
+    line-height: 26px;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 0px;
+    list-style: none;
+}
+li:hover{
+    background-color: #e4e4e4;
+}
+
+.itemSpan{
+    padding: 10px;
+
+}
+
+.lableSpan{
+    margin-left: 10px;
+    vertical-align:top;
+}
+
+.body{
+    background-color:#f2f2f2;
+    margin: 0px;
+    font-size: 13px;
+    color: rgba(0,0,0,.62);
+    font-weight: 600;
+    font-family: Roboto,sans-serif;
+}
+
+
+.item{
+    width: 240px;
+    height: 150%;
+}
+
+.item:hover{
+    background-color:#e4e4e4;
+}
+
+
+
+.listView{
+
+    overflow: hidden;
+    float:left;
+    position: absolute;
+    left: 288px;
+    top: 139px;
+    width: 85%;
+    height: 90%;
+    background-color: white;
+}
+
+.headerOfListView{
+    height: 58px;
+    background-color: #f2f2f2;
+}
+
+
+.treeView{
+    width: 288px;
+    border: transparent;
+}
+
+
+
+.listViewHeader_Name{
+    position: absolute;
+    left: 25px;
+    top: 23px;
+}
+
+.listViewHeader_ArrowIcon{
+    height: 19px;
+    width: 28px;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+
+.listViewHeader_Owner{
+    position: absolute;
+    left: 64%;
+    top: 23px;
+}
+
+.listViewHeader_LastModified {
+    position: absolute;
+    left: 77%;
+    top: 23px
+}
+.listViewHeader_FileSize{
+    position: absolute;
+    left: 90%;
+    top: 23px;
+
+}
+
+.listViewItem{
+    height: 51px;
+    border-bottom: solid 1px #d4cdcd;
+
+}
+
+.imageOfList{
+    height: 23px;
+    width: 23px;
+    margin-top: 6px;
+    margin-left: 13px;
+    border-radius: 7px;
+    float: left;
+
+
+}
+
+.nameOfList{
+    margin-left: 29px;
+    vertical-align: 5px;
+    float: left;
+    margin-top: 18px;
+    width: 150px;
+
+}
+
+.ownerOfList{
+    float: left;
+    margin-top: 18px;
+    margin-left: 64%;
+    width: 150px;
+    position: absolute;
+}
+
+.lastModifiedOfList{
+    float: left;
+    margin-top: 18px;
+    margin-left: 77%;
+    width: 150px;
+    position: absolute;
+}
+
+
+.newButton{
+    background-color: #4285F4;
+    width: 107px;
+    height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    min-height: 32px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    position: relative;
+    left: 26px;
+    top: 64%;
+    color: white;
+}
+
+.TreeViewContainer{
+    margin-top: 15px;
+    width: 288px;
+}
+
+.addItemViewContainer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.addItem{
+    height: 217px;
+    width: 410px;
+    position: absolute;
+    top: 377px;
+    left: 36%;
+    background-color: white;
+}
+
+.createButton{
+    background-color: rgb(66, 133, 244);
+    margin-left: 47px;
+    border-redius: -24px;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-size: 12px;
+}
+
+.cancelButton{
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+}
+
+.gridViewContainer{
+    position: absolute;
+    left: 288px;
+    top: 138px;
+    width: 80%;
+    height: 100%;
+    padding: 8px 8px 16px 22px;
+}
+
+.imageOfGridFolder{
+    height: 24px;
+    width: 22px;
+    float: left;
+    margin-left: 9px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.nameOfGridViewFolder{
+    margin-top: 16px;
+    margin-left: 61px;
+}
+
+.folderHeaderOfGridView{
+
+    margin-top: 15px;
+    color: rgba(0,0,0,.50);
+}
+
+.folderRepresentation{
+    flex-direction: row;
+    background-color: white;
+    height: 54px;
+    width: 193px;
+    margin-top: 27px;
+    /* border: solid; */
+    margin-right: 24px;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+
+
+}
+
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.fileHeaderOfGridView{
+    padding-top: 19px;
+    padding-bottom: 10px;
+    color: rgba(0,0,0,.50);
+}
+.fileRepresentation{
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 16px;
+    margin-right: 20px;
+    height: 201px;
+    width: 193px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+
+}
+
+.imageOfGridFile{
+    height: 147px;
+    margin-left: 13px;
+}
+
+.nameOfGridViewFile{
+    margin-top: 17px;
+    font-size: 15px;
+    margin-left: 45px;
+}
+
+.iconOfGridFile{
+    height: 28px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.viewIcon{
+    position: absolute;
+    top: 88px;
+    left: 93%;
+}
+
+.gridViewImage {
+    height: 31px;
+    width: 28px;
+}
+
+.listViewImage {
+    height: 31px;
+    width: 28px;
+}
+
+.contentsphereIcon{
+    height: 43px;
+    width: 132px;
+    margin-left: 24px;
+    margin-top: 18px;
+}
+
+.drive{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 8px;
+    opacity: .54;
+    margin-top: 26px;
+    font-weight: 500;
+    color: inherit;
+}
